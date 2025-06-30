@@ -1,0 +1,23 @@
+Usage: git-wmem [flags] <command> [args...]
+
+Commands:
+  init      Initialize a new wmem repository
+            Usage: git-wmem init <directory>
+
+  commit    Save the current state of tracked repositories
+            Usage: git-wmem commit
+
+  log       View the history of saved states
+            Usage: git-wmem log
+
+Flags:
+  --readme              show full documentation
+  --version             show version information
+  --help                show usage information
+  --cpuprofile string   write cpu profile to file
+  --memprofile string   write memory profile to file
+
+Examples:
+  git-wmem init .
+  git-wmem commit
+  git-wmem log
